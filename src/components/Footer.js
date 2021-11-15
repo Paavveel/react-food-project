@@ -6,7 +6,7 @@ function Footer() {
           © {new Date().getFullYear()} Copyright Text
           <a
             className='grey-text text-lighten-4 right'
-            href='https://paavveel.github.io/react-shop-project/'
+            href='https://paavveel.github.io/react-food-project/'
             target='_blank'
             rel='noreferrer'
           >
