@@ -6,6 +6,7 @@ import NotFound from './pages/NotFound';
 import './App.css';
 import Layout from './layout/Layout';
 import Category from './pages/Category';
+import Recipe from './pages/Recipe';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contacts' element={<Contact />} />
           <Route path='category/:name' element={<Category />} />
+          <Route path='category/:name/meal/:id' element={<Recipe />} />
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>
