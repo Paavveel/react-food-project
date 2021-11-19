@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/react-food-project'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
