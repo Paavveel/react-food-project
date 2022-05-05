@@ -1,12 +1,5 @@
-# React Shop Portfolio Project
+# React Food Project
 
-[Demo](https://paavveel.github.io/react-shop-project/).
+[Demo](https://paavveel.github.io/react-food-project/).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+SPA приложение по поиску рецептов использующее TheMealDB API. На главной странице доступны категории с их описанием, можно перейти внутрь категории и посомтреть доступные блюда, так же можно попасть на страницу с самим рецептом.
